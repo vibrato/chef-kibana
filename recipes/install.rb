@@ -17,6 +17,8 @@
 # limitations under the License.
 #
 
+require 'poise'
+
 install_type = node['kibana']['install_type']
 
 unless Chef::Config[:solo]
